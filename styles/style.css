@@ -171,6 +171,7 @@ button {
 	color: #00A8CC;
 	padding-right: 20px;
 	padding-top: 5px;
+	
 }
 
 .post__items {
@@ -349,7 +350,8 @@ padding-top: 23px;
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: center;
-		width: 100%;	
+		width: 100%;
+		
 	}
 	.intro__photo {
 		
@@ -362,11 +364,13 @@ padding-top: 23px;
 
 	.intro__name {
 		width: 100%;
+		text-align: center;
 
 	}
 
 	.name {
 		line-height: 40px;
+		align-self: center;
 	}
 
 	.header__menu {
@@ -380,8 +384,13 @@ padding-top: 23px;
 		background-size: auto;
 	}
 
+	.button_resume {
+		width: 100%;
+	}
+
 	.post__items {
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.work-item:not(:first-child), .link {
@@ -392,9 +401,14 @@ padding-top: 23px;
 		display: none;
 	}
 
+	.work__items {
+		align-self: center;
+	}
+
 	.work-item {
 		display: flex;
 		flex-direction: column;
+		max-width: 344px;
 		
 	}
 
